@@ -1,4 +1,5 @@
-# tf_lambda_tagging
+# Achieving Consistent AWS Resource Tagging with Terraform and CloudTrail
+
 # Introduction:
 Ensuring consistent tagging across AWS resources is paramount for effective resource management and cost optimization. Inspired by the insights shared in the AWS blog posts "Tag Your AWS Resources Consistently with AWS Resource Explorer and AWS CloudTrail" and "Using Python to Automate AWS Services | Lambda and EC2," I present a solution leveraging Terraform and AWS CloudTrail for automated resource tagging. While the original blog discusses DynamoDB, my approach utilizes Terraform and GitHub (or anything similar) for infrastructure provisioning, enabling seamless integration with AWS CloudTrail to enforce tagging policies dynamically. This will allow you to make changes as part of a change management system like GitHub and then utilize a CI/CD pipeline to deploy. This only cover "CreateBy" tag mapped to a username for now but can be extended easily to add extra tags.
 
